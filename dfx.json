@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "canistart_module4_backend": {
+      "main": "src/canistart_module4_backend/main.mo",
+      "type": "motoko"
+    },
+    "canistart_module4_frontend": {
+      "dependencies": [
+        "canistart_module4_backend"
+      ],
+      "source": [
+        "src/canistart_module4_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "canistart_module4_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
