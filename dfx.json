@@ -4,6 +4,10 @@
       "main": "src/canistart_module4_backend/main.mo",
       "type": "motoko"
     },
+    "canisterB": {
+      "main" : "src/canistart_module4_backend/canisterB.mo",
+      "type" : "motoko"
+    },
     "canistart_module4_frontend": {
       "dependencies": [
         "canistart_module4_backend"
