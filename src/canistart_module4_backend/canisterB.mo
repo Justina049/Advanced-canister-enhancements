@@ -5,4 +5,3 @@ actor CanisterB {
         return "Hello, " # name # "! Greetings from CanisterB.";
     }
 }
-
